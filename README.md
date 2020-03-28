@@ -17,7 +17,7 @@
 
 ### Code & Files
 
-#### 1. My project includes the following files
+#### 1. Our project includes the following files
 
 * [main.py](main.py) is the main code for demos
 * [yolo_pipeline.py](yolo_pipeline.py) is the car detection pipeline with a deep net [YOLO (You Only Look Once)](https://arxiv.org/pdf/1506.02640.pdf)
@@ -95,9 +95,5 @@ Since the "car" is known to YOLO, I use the precomputed weights directly and app
 
 ### Discussion
 
-For YOLO based approach, it achieves real-time and the accuracy are quite satisfactory. Only in some cases, it may failure to
- detect the small car thumbnail in distance. My intuition is that the original input image is in resolution of 1280x720, and it needs to be downscaled
- to 448x448, so the car in distance will be tiny and probably quite distorted in the downscaled image (448x448). In order to 
- correctly identify the car in distance, we might need to either crop the image instead of directly downscaling it, or retrain 
- the network.
-Another Alternative is using SVM based approach
+YOLO based approach achieves real-time and the accuracy are quite satisfactory. Only in some cases, it may failure to
+detect the small car thumbnail in distance.In order to correctly identify the car in distance, we might need to either crop the image or retrain the network.
