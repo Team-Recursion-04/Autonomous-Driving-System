@@ -67,7 +67,7 @@ python main.py
 [demo2_gif]: ./examples/demo2.gif
 
 
-### Neural Network Approach (YOLO)
+### You Only Look Once (YOLO)
 `yolo_pipeline.py` contains the code for the yolo pipeline. 
 
 [YOLO](https://arxiv.org/pdf/1506.02640.pdf) is an object detection pipeline baesd on Neural Network. Contrast to prior work on object detection with classifiers 
