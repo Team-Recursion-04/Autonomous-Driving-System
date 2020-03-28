@@ -7,11 +7,11 @@
 
 #### **(1) Highway Drive (with Lane Departure Warning)**
 
-[![gif_demo1][demo1_gif]]
+![gif_demo1][demo1_gif]
 
 #### **(2) City Drive (Vehicle Detection only)**
 
-[![gif_demo2][demo2_gif]]
+![gif_demo2][demo2_gif]
 
 ---
 
