@@ -20,7 +20,7 @@
 #### 1. Our project includes the following files
 
 * [main.py](main.py) is the main code for demos
-* [yolo_pipeline.py](yolo_pipeline.py) is the car detection pipeline with a deep net [YOLO (You Only Look Once)](https://arxiv.org/pdf/1506.02640.pdf)
+* [yolo_pipeline.py](yolo_pipeline.py) is the car detection pipeline with a deep net YOLO (You Only Look Once)
 * [visualization.py](visualizations.py) is the function for adding visalization
 * [calibration.py](calibration.py) contains the script to calibrate camera and save the calibration results
 * [lane.py](model.h5) contains the lane class 
