@@ -6,24 +6,21 @@
 <img src="https://img.shields.io/github/forks/Team-Recursion-04/Autonomous-Driving-System">
 <img src="https://img.shields.io/github/issues/Team-Recursion-04/Autonomous-Driving-System">
 <img src="https://img.shields.io/badge/PRs-welcome-informational">
-</div>
+</div
 
-#### Demo:
-
-
-#### **(1) Lane detection**
+#### **1. Lane detection**
 
 ![gif_demo1][demo1_gif]
 
-#### **(2) Vehicle Detection**
+#### **2. Vehicle Detection**
 
 ![gif_demo2][demo2_gif]
 
 ---
 
-### Code & Files
+### Source Code
 
-#### 1. Our project includes the following files
+#### 1.Project includes following files:-
 
 * [main.py](main.py) => main code for demos
 * [yolo_pipeline.py](yolo_pipeline.py) => car detection pipeline with a deep net YOLO (You Only Look Once)
@@ -37,15 +34,14 @@
 
 * OpenCV3, Python3.5, tensorflow, CUDA8  
 
-#### 3. How to run the code
+#### 3. Running the code
 
 (1) Download weights for YOLO
 
 Download the weights from [here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to
 the [weights](weights) folder.
-The link is also  specified [here](https://github.com/Team-Recursion-04/Autonomous-Driving-System/blob/master/weights/put_weights_here.txt)
 
-(2) If you want to run the demo, you can simply run:
+(2) To run the demo simply run
 ```sh
 python main.py
 ```
