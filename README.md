@@ -8,18 +8,14 @@
 <img src="https://img.shields.io/badge/PRs-welcome-informational">
 </div
 
-#### 1. **Dependencies**
-
-* Python3.5, CUDA8 , OpenCV3, tensorflow
-
-#### 2. **Running the code**
+#### **Running the code**
 
 (1) Download weights for YOLO
 
-Download the weights from [here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to
+Download it from [here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to
 the [weights](weights) folder.
 
-(2) To run the demo simply run
+(2) Then run
 ```sh
 python main.py
 ```
