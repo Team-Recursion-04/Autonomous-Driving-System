@@ -11,7 +11,7 @@
 
 #### **(2) City Drive (Vehicle Detection only)**
 
-[![gif_demo2][demo2_gif]](https://youtu.be/2wOxK86LcaM)
+[![gif_demo2][demo2_gif]]
 
 ---
 
