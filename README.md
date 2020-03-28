@@ -76,8 +76,6 @@ associated class probabilities. A single neural network predicts bounding boxes 
 full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end
 directly on detection performance.
 
-![alt text][image_yolo2]
-
 Steps to use the YOLO for detection:
 * resize input image to 448x448
 * run a single convolutional network on the image
