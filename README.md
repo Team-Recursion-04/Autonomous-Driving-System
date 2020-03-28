@@ -5,11 +5,11 @@
 #### A demo of Vehicle Detection System:
 
 
-#### [**(1) Highway Drive (with Lane Departure Warning)**](https://youtu.be/Brh9-uab7Qs) (Click to see the full video)
+#### **(1) Highway Drive (with Lane Departure Warning)**
 
-[![gif_demo1][demo1_gif]](https://youtu.be/Brh9-uab7Qs)
+[![gif_demo1][demo1_gif]]
 
-#### [**(2) City Drive (Vehicle Detection only)**](https://youtu.be/2wOxK86LcaM) (Click to see the full video)
+#### **(2) City Drive (Vehicle Detection only)**
 
 [![gif_demo2][demo2_gif]](https://youtu.be/2wOxK86LcaM)
 
