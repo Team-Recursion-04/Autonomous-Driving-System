@@ -1,15 +1,15 @@
-# **Vehicle Detection for Autonomous Driving** 
+# **Autonomous Driving** 
 
 ## Objective
 
 #### A demo of Vehicle Detection System:
 
 
-#### **(1) Highway Drive (with Lane Departure Warning)**
+#### **(1) Highway Drive (Lane detection)**
 
 ![gif_demo1][demo1_gif]
 
-#### **(2) City Drive (Vehicle Detection only)**
+#### **(2) City Drive (Vehicle Detection)**
 
 ![gif_demo2][demo2_gif]
 
