@@ -8,11 +8,11 @@
 <img src="https://img.shields.io/badge/PRs-welcome-informational">
 </div
 
-#### 1. Dependencies
+#### 1. **Dependencies**
 
 * Python3.5, CUDA8 , OpenCV3, tensorflow
 
-#### 3. Running the code
+#### 2. **Running the code**
 
 (1) Download weights for YOLO
 
