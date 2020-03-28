@@ -20,19 +20,19 @@
 
 ### Source Code
 
-#### 1.Project includes following files:-
+#### 1.Files:-
 
-* [main.py](main.py) => main code for demos
-* [yolo_pipeline.py](yolo_pipeline.py) => car detection pipeline with a deep net YOLO (You Only Look Once)
-* [visualization.py](visualizations.py) => function for adding visalization
-* [calibration.py](calibration.py) => contains the script to calibrate camera and save the calibration results
-* [lane.py](model.h5) => contains the lane class 
-* [examples](examples) => folder contains the sample images and videos
+* [main.py](main.py) => main
+* [yolo_pipeline.py](yolo_pipeline.py) => YOLO pipeline for vehicle detection
+* [visualization.py](visualizations.py) => adding visualizations
+* [calibration.py](calibration.py) => camera caliberations
+* [lane.py](model.h5) 
+* [examples](examples) => images and videos
 
 
 #### 2. Dependencies
 
-* OpenCV3, Python3.5, tensorflow, CUDA8  
+* Python3.5, CUDA8 , OpenCV3, tensorflow
 
 #### 3. Running the code
 
@@ -94,5 +94,4 @@ Steps to use the YOLO for detection:
 
 ### Discussion
 
-YOLO based approach achieves real-time and the accuracy are quite satisfactory. Only in some cases, it may failure to
-detect the small car thumbnail in distance.In order to correctly identify the car in distance, we might need to either crop the image or retrain the network.
+Using YOLO based approach accuracy is quite satisfactory.It may fail to detect the small car in distance.
