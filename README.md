@@ -1,15 +1,21 @@
 # **Autonomous Driving** 
 
-## Objective
+<div align="center">
+<img src="https://img.shields.io/github/license/Team-Recursion-04/Autonomous-Driving-System">	
+<img src="https://img.shields.io/github/stars/Team-Recursion-04/Autonomous-Driving-System">
+<img src="https://img.shields.io/github/forks/Team-Recursion-04/Autonomous-Driving-System">
+<img src="https://img.shields.io/github/issues/Team-Recursion-04/Autonomous-Driving-System">
+<img src="https://img.shields.io/badge/PRs-welcome-informational">
+</div>
 
-#### A demo of Vehicle Detection System:
+#### Demo:
 
 
-#### **(1) Highway Drive (Lane detection)**
+#### **(1) Lane detection**
 
 ![gif_demo1][demo1_gif]
 
-#### **(2) City Drive (Vehicle Detection)**
+#### **(2) Vehicle Detection**
 
 ![gif_demo2][demo2_gif]
 
@@ -19,27 +25,25 @@
 
 #### 1. Our project includes the following files
 
-* [main.py](main.py) is the main code for demos
-* [yolo_pipeline.py](yolo_pipeline.py) is the car detection pipeline with a deep net YOLO (You Only Look Once)
-* [visualization.py](visualizations.py) is the function for adding visalization
-* [calibration.py](calibration.py) contains the script to calibrate camera and save the calibration results
-* [lane.py](model.h5) contains the lane class 
-* [examples](examples) folder contains the sample images and videos
+* [main.py](main.py) => main code for demos
+* [yolo_pipeline.py](yolo_pipeline.py) => car detection pipeline with a deep net YOLO (You Only Look Once)
+* [visualization.py](visualizations.py) => function for adding visalization
+* [calibration.py](calibration.py) => contains the script to calibrate camera and save the calibration results
+* [lane.py](model.h5) => contains the lane class 
+* [examples](examples) => folder contains the sample images and videos
 
 
-#### 2. Dependencies & my environment
+#### 2. Dependencies
 
-Anaconda is used for managing my **dependencies**.
-* You can use provided [environment-gpu.yml](environment-gpu.yml) to install the dependencies.
 * OpenCV3, Python3.5, tensorflow, CUDA8  
-* OS: Ubuntu 16.04
 
 #### 3. How to run the code
 
 (1) Download weights for YOLO
 
-You can download the weight from [here](https://drive.google.com/open?id=0B5WIzrIVeL0WS3N2VklTVmstelE) and save it to
+Download the weights from [here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to
 the [weights](weights) folder.
+The link is also  specified [here](https://github.com/Team-Recursion-04/Autonomous-Driving-System/blob/master/weights/put_weights_here.txt)
 
 (2) If you want to run the demo, you can simply run:
 ```sh
@@ -76,6 +80,8 @@ associated class probabilities. A single neural network predicts bounding boxes 
 full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end
 directly on detection performance.
 
+YOLO (You Only Look Once), is a network for object detection. The object detection task consists in determining the location on the image where certain objects are present, as well as classifying those objects. Previous methods for this, like R-CNN and its variations, used a pipeline to perform this task in multiple steps. This can be slow to run and also hard to optimize, because each individual component must be trained separately. YOLO, does it all with a single neural network.
+
 Steps to use the YOLO for detection:
 * resize input image to 448x448
 * run a single convolutional network on the image
@@ -84,7 +90,6 @@ Steps to use the YOLO for detection:
 ![alt text][image_yolo1]
 
 `yolo_pipeline.py` is modified and integrated based on this [tensorflow implementation of YOLO](https://github.com/gliese581gg/YOLO_tensorflow).
-Since the "car" is known to YOLO, I use the precomputed weights directly and apply to the entire input frame.
 
 #### Example of test image
 ![alt text][image8]
