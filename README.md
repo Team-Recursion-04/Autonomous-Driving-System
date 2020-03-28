@@ -2,7 +2,7 @@
 
 ## Objective
 
-#### A demo of Vehicle Detection System: a monocular camera is used for detecting vehicles. 
+#### A demo of Vehicle Detection System:
 
 
 #### [**(1) Highway Drive (with Lane Departure Warning)**](https://youtu.be/Brh9-uab7Qs) (Click to see the full video)
@@ -70,7 +70,7 @@ python main.py
 ### You Only Look Once (YOLO)
 `yolo_pipeline.py` contains the code for the yolo pipeline. 
 
-[YOLO](https://arxiv.org/pdf/1506.02640.pdf) is an object detection pipeline baesd on Neural Network. Contrast to prior work on object detection with classifiers 
+YOLO is an object detection pipeline baesd on Neural Network. Contrast to prior work on object detection with classifiers 
 to perform detection, YOLO frame object detection as a regression problem to spatially separated bounding boxes and
 associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from
 full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end
