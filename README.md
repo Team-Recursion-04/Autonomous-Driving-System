@@ -8,29 +8,7 @@
 <img src="https://img.shields.io/badge/PRs-welcome-informational">
 </div
 
-#### **1. Lane detection**
-
-![gif_demo1][demo1_gif]
-
-#### **2. Vehicle Detection**
-
-![gif_demo2][demo2_gif]
-
----
-
-### Source Code
-
-#### 1.Files:-
-
-* [main.py](main.py) => main
-* [yolo_pipeline.py](yolo_pipeline.py) => YOLO pipeline for vehicle detection
-* [visualization.py](visualizations.py) => adding visualizations
-* [calibration.py](calibration.py) => camera caliberations
-* [lane.py](model.h5) 
-* [examples](examples) => images and videos
-
-
-#### 2. Dependencies
+#### 1. Dependencies
 
 * Python3.5, CUDA8 , OpenCV3, tensorflow
 
@@ -72,8 +50,6 @@ python main.py
 
 YOLO is an object detection pipeline baesd on Neural Network. A single neural network predicts bounding boxes from full images in single evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
 The object detection task consists in determining the location on the image where certain objects are present, as well as classifying those objects. Previous methods for this, like R-CNN and its variations, used a pipeline to perform this task in multiple steps. This can be slow to run and also hard to optimize, because each individual component must be trained separately. YOLO, does it all with a single neural network.
-
-![alt text][image_yolo1]
 
 #### Example of test image
 ![alt text][image8]
