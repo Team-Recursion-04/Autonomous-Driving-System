@@ -10,6 +10,7 @@
 [![gif_demo1][demo1_gif]](https://youtu.be/Brh9-uab7Qs)
 
 #### [**(2) City Drive (Vehicle Detection only)**](https://youtu.be/2wOxK86LcaM) (Click to see the full video)
+
 [![gif_demo2][demo2_gif]](https://youtu.be/2wOxK86LcaM)
 
 ---
@@ -19,12 +20,8 @@
 #### 1. My project includes the following files
 
 * [main.py](main.py) is the main code for demos
-* [svm_pipeline.py](svm_pipeline.py) is the car detection pipeline with SVM
 * [yolo_pipeline.py](yolo_pipeline.py) is the car detection pipeline with a deep net [YOLO (You Only Look Once)](https://arxiv.org/pdf/1506.02640.pdf)
 * [visualization.py](visualizations.py) is the function for adding visalization
-
----
-Others are the same as in the repository of [Lane Departure Warning System](https://github.com/JunshengFu/autonomous-driving-lane-departure-warning):
 * [calibration.py](calibration.py) contains the script to calibrate camera and save the calibration results
 * [lane.py](model.h5) contains the lane class 
 * [examples](examples) folder contains the sample images and videos
