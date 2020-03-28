@@ -25,9 +25,6 @@ python main.py
 ```
 
 
-### **Approach : Neural Network**
-
-
 [//]: # (Image References)
 [image1]: ./examples/car_not_car.png
 [image2]: ./examples/hog_1.png
@@ -49,7 +46,7 @@ python main.py
 `yolo_pipeline.py` contains the code for the yolo pipeline. 
 
 YOLO is an object detection pipeline baesd on Neural Network. A single neural network predicts bounding boxes from full images in single evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end directly on detection performance.
-The object detection task consists in determining the location on the image where certain objects are present, as well as classifying those objects. Previous methods for this, like R-CNN and its variations, used a pipeline to perform this task in multiple steps. This can be slow to run and also hard to optimize, because each individual component must be trained separately. YOLO, does it all with a single neural network.
+The object detection task consists in determining the location on the image where certain objects are present, as well as classifying those objects. 
 
 #### Example of test image
 ![alt text][image8]
