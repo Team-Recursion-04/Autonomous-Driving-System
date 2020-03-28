@@ -29,7 +29,7 @@
 
 #### 2. Dependencies & my environment
 
-Anaconda is used for managing my [**dependencies**](https://github.com/udacity/CarND-Term1-Starter-Kit).
+Anaconda is used for managing my **dependencies**.
 * You can use provided [environment-gpu.yml](environment-gpu.yml) to install the dependencies.
 * OpenCV3, Python3.5, tensorflow, CUDA8  
 * OS: Ubuntu 16.04
