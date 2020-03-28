@@ -1,4 +1,3 @@
-# Autonomous-Driving-System
 # **Vehicle Detection for Autonomous Driving** 
 
 ## Objective
@@ -22,6 +21,9 @@
 * [main.py](main.py) is the main code for demos
 * [yolo_pipeline.py](yolo_pipeline.py) is the car detection pipeline with a deep net [YOLO (You Only Look Once)](https://arxiv.org/pdf/1506.02640.pdf)
 * [visualization.py](visualizations.py) is the function for adding visalization
+
+---
+Others are the same as in the repository of [Lane Departure Warning System](https://github.com/JunshengFu/autonomous-driving-lane-departure-warning):
 * [calibration.py](calibration.py) contains the script to calibrate camera and save the calibration results
 * [lane.py](model.h5) contains the lane class 
 * [examples](examples) folder contains the sample images and videos
@@ -46,8 +48,20 @@ the [weights](weights) folder.
 python main.py
 ```
 
+#### 4. Release History
+
+* 0.1.1
+    * Fix two minor bugs and update the documents
+    * Date 18 April 2017
+
+* 0.1.0
+    * The first proper release
+    * Date 31 March 2017
+
+---
 
 ### **Approach : Neural Network**
+
 
 ### Neural Network Approach (YOLO)
 `yolo_pipeline.py` contains the code for the yolo pipeline. 
@@ -82,4 +96,3 @@ For YOLO based approach, it achieves real-time and the accuracy are quite satisf
  to 448x448, so the car in distance will be tiny and probably quite distorted in the downscaled image (448x448). In order to 
  correctly identify the car in distance, we might need to either crop the image instead of directly downscaling it, or retrain 
  the network.
-Another alternative is using SVM based.
