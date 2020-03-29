@@ -1,6 +1,7 @@
 # **Autonomous Driving** 
 
 <div align="center">
+  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors"> <img src="https://img.shields.io/github/contributors/Team-Recursion-04/Autonomous-Driving-System" />
 <img src="https://img.shields.io/github/license/Team-Recursion-04/Autonomous-Driving-System">	
 <img src="https://img.shields.io/github/stars/Team-Recursion-04/Autonomous-Driving-System">
 <img src="https://img.shields.io/github/forks/Team-Recursion-04/Autonomous-Driving-System">
@@ -100,3 +101,13 @@ Steps to use the YOLO for detection:
 
 YOLO based approach achieves real-time and the accuracy are quite satisfactory. Only in some cases, it may failure to
 detect the small car thumbnail in distance.In order to correctly identify the car in distance, we might need to either crop the image or retrain the network.
+
+## Developers:
+
+[Vedant Khairnar](http://vedantkhairnar.ml/)
+
+Pranav Manbhekar
+
+Vishal Kriplani
+
+Piyush Chotiya
