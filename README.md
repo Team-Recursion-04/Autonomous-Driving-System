@@ -40,13 +40,13 @@
 
 #### 3. How to run the code
 
-(1) Download weights for YOLO
+(1) Download weight URL for YOLO
 
-Download the weights from [here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to
-the [weights](weights) folder.
+[here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to the [weights](weights) folder.
 The link is also  specified [here](https://github.com/Team-Recursion-04/Autonomous-Driving-System/blob/master/weights/put_weights_here.txt)
 
 (2) If you want to run the demo, you can simply run:
+
 ```sh
 python main.py
 ```
