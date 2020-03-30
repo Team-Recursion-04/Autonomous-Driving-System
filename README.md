@@ -51,12 +51,11 @@ python main.py
 
 ### You Only Look Once (YOLO)
 
-YOLO is an object detection pipeline baesd on Neural Network. Contrast to prior work on object detection with classifiers 
-to perform detection, YOLO frame object detection as a regression problem to spatially separated bounding boxes and
-associated class probabilities. A single neural network predicts bounding boxes and class probabilities directly from
-full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end
-directly on detection performance.
+You only look once (YOLO) is a state-of-the-art, real-time object detection system. On a Pascal Titan X it processes images at 30 FPS and has a mAP of 57.9% on COCO test-dev.
 
+YOLOv3 is extremely fast and accurate. In mAP measured at .5 IOU YOLOv3 is on par with Focal Loss but about 4x faster. Moreover, you can easily tradeoff between speed and accuracy simply by changing the size of the model, no retraining required!
+
+YOLOv3 uses a few tricks to improve training and increase performance, including: multi-scale predictions, a better backbone classifier, and more.
 
 ![alt text][image_yolo1]
 
