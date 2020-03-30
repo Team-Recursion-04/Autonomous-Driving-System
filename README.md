@@ -9,6 +9,11 @@
 <img src="https://img.shields.io/badge/PRs-welcome-informational">
 </div>
 
+[image8]: ./examples/yolo_1.png
+[image_yolo1]: ./examples/yolo1.png
+[demo1_gif]: ./examples/demo1.gif
+[demo2_gif]: ./examples/demo2.gif
+
 #### Demo:
 
 
@@ -41,23 +46,10 @@ python main.py
 
 
 [//]: # (Image References)
-[image1]: ./examples/car_not_car.png
-[image2]: ./examples/hog_1.png
-[image2-1]: ./examples/hog_2.png
-[image3]: ./examples/search_windows.png
-[image4]: ./examples/heat_map1.png
-[image5]: ./examples/heat_map2.png
-[image6]: ./examples/labels_map.png
-[image8]: ./examples/yolo_1.png
-[image_yolo1]: ./examples/yolo1.png
-[image_yolo2]: ./examples/yolo2.png
-[video1]: ./project_video.mp4
-[demo1_gif]: ./examples/demo1.gif
-[demo2_gif]: ./examples/demo2.gif
+
 
 
 ### You Only Look Once (YOLO)
-`yolo_pipeline.py` contains the code for the yolo pipeline. 
 
 YOLO is an object detection pipeline baesd on Neural Network. Contrast to prior work on object detection with classifiers 
 to perform detection, YOLO frame object detection as a regression problem to spatially separated bounding boxes and
