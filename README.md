@@ -17,23 +17,23 @@
 #### Demo:
 
 
-#### **(1) Lane detection**
+#### **(1) Path Lane Detection**
 
 ![gif_demo1][demo1_gif]
 
-#### **(2) Vehicle Detection**
+#### **(2) Automobile Detection**
 
 ![gif_demo2][demo2_gif]
 
 ---
 
 
-#### How to run the code
+#### Instructions : 
 
 (1) Download weight URL for YOLO
 
 [here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to the [weights](weights) folder.
-The link is also  specified [here](https://github.com/Team-Recursion-04/Autonomous-Driving-System/blob/master/weights/put_weights_here.txt)
+
 
 (2) If you want to run the demo, you can simply run:
 
@@ -43,9 +43,6 @@ python main.py
 
 
 ### **Approach : Neural Network**
-
-
-[//]: # (Image References)
 
 
 
