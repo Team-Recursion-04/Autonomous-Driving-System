@@ -48,7 +48,6 @@ python main.py
 [image4]: ./examples/heat_map1.png
 [image5]: ./examples/heat_map2.png
 [image6]: ./examples/labels_map.png
-[image7]: ./examples/svn_1.png
 [image8]: ./examples/yolo_1.png
 [image_yolo1]: ./examples/yolo1.png
 [image_yolo2]: ./examples/yolo2.png
@@ -74,11 +73,6 @@ directly on detection performance.
 ![alt text][image8]
 
 ---
-
-### Discussion
-
-YOLO based approach achieves real-time and the accuracy are quite satisfactory. Only in some cases, it may failure to
-detect the small car thumbnail in distance.In order to correctly identify the car in distance, we might need to either crop the image or retrain the network.
 
 ## Developers:
 
