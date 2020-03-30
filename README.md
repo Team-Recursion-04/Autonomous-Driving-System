@@ -22,23 +22,8 @@
 
 ---
 
-### Code & Files
 
-#### 1. Our project includes the following files
-
-* [main.py](main.py) => main code for demos
-* [yolo_pipeline.py](yolo_pipeline.py) => car detection pipeline with a deep net YOLO (You Only Look Once)
-* [visualization.py](visualizations.py) => function for adding visalization
-* [calibration.py](calibration.py) => contains the script to calibrate camera and save the calibration results
-* [lane.py](model.h5) => contains the lane class 
-* [examples](examples) => folder contains the sample images and videos
-
-
-#### 2. Dependencies
-
-* OpenCV3, Python3.5, tensorflow, CUDA8  
-
-#### 3. How to run the code
+#### How to run the code
 
 (1) Download weight URL for YOLO
 
@@ -81,16 +66,9 @@ associated class probabilities. A single neural network predicts bounding boxes 
 full images in one evaluation. Since the whole detection pipeline is a single network, it can be optimized end-to-end
 directly on detection performance.
 
-YOLO (You Only Look Once), is a network for object detection. The object detection task consists in determining the location on the image where certain objects are present, as well as classifying those objects. Previous methods for this, like R-CNN and its variations, used a pipeline to perform this task in multiple steps. This can be slow to run and also hard to optimize, because each individual component must be trained separately. YOLO, does it all with a single neural network.
-
-Steps to use the YOLO for detection:
-* resize input image to 448x448
-* run a single convolutional network on the image
-* threshold the resulting detections by the model’s confidence
 
 ![alt text][image_yolo1]
 
-`yolo_pipeline.py` is modified and integrated based on this [tensorflow implementation of YOLO](https://github.com/gliese581gg/YOLO_tensorflow).
 
 #### Example of test image
 ![alt text][image8]
