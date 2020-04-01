@@ -21,25 +21,12 @@
 
 ![gif_demo1][demo1_gif]
 
-#### **(2) Automobile Detection**
+#### **(2) Object Detection**
 
 ![gif_demo2][demo2_gif]
 
 ---
 
-
-#### Instructions : 
-
-(1) For downloading the weights, use
-
-[Link](https://github.com/gliese581gg/YOLO_tensorflow) and add to [weights](weights) folder.
-
-
-(2) If you want to run the demo, you can simply run:
-
-```sh
-python main.py
-```
 
 ### You Only Look Once (YOLO)
 
