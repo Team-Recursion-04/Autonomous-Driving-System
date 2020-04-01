@@ -30,9 +30,9 @@
 
 #### Instructions : 
 
-(1) Download weight URL for YOLO
+(1) For downloading the weights, use
 
-[here](https://github.com/gliese581gg/YOLO_tensorflow) and save it to the [weights](weights) folder.
+[Link](https://github.com/gliese581gg/YOLO_tensorflow) and add to [weights](weights) folder.
 
 
 (2) If you want to run the demo, you can simply run:
