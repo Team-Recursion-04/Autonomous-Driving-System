@@ -36,10 +36,14 @@ YOLOv3 is extremely fast and accurate. In mAP measured at .5 IOU YOLOv3 is on pa
 
 YOLOv3 uses a few tricks to improve training and increase performance, including: multi-scale predictions, a better backbone classifier, and more.
 
+For Further Reference, click [here](https://github.com/yehengchen/Object-Detection-and-Tracking/blob/master/OneStage/yolo/README.md).
+
+
 ![alt text][image_yolo1]
 
 
 #### Example of test image
+
 ![alt text][image8]
 
 ---
