@@ -1,12 +1,17 @@
 # **Autonomous Driving** 
 
 <div align="center">
-  <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors"> <img src="https://img.shields.io/github/contributors/Team-Recursion-04/Autonomous-Driving-System" />
-<img src="https://img.shields.io/github/license/Team-Recursion-04/Autonomous-Driving-System">	
-<img src="https://img.shields.io/github/stars/Team-Recursion-04/Autonomous-Driving-System">
-<img src="https://img.shields.io/github/forks/Team-Recursion-04/Autonomous-Driving-System">
-<img src="https://img.shields.io/github/issues/Team-Recursion-04/Autonomous-Driving-System">
-<img src="https://img.shields.io/badge/PRs-welcome-informational">
+
+![Stars](https://img.shields.io/github/stars/Team-Recursion-04/Autonomous-Driving-System.svg?style=social)
+![Forks](https://img.shields.io/github/forks/Team-Recursion-04/Autonomous-Driving-System.svg?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/Team-Recursion-04/Autonomous-Driving-System.svg)
+![Language](https://img.shields.io/github/languages/top/Team-Recursion-04/Autonomous-Driving-System.svg)
+[![GitHub](https://img.shields.io/github/license/Team-Recursion-04/Autonomous-Driving-System.svg)](https://choosealicense.com/licenses/mit)
+[![Say Thanks!](https://img.shields.io/badge/Say-Thanks!-yellow.svg)](https://vedantkhairnar.ml)
+[![HitCount](http://hits.dwyl.io/Team-Recursion-04/Autonomous-Driving-System.svg)](http://hits.dwyl.io/Team-Recursion-04/Autonomous-Driving-System)
+![Issues](https://img.shields.io/github/issues/Team-Recursion-04/Autonomous-Driving-System)
+![PRsWelcome](https://img.shields.io/badge/PRs-welcome-informational)
+
 </div>
 
 [image8]: ./examples/yolo_1.png
